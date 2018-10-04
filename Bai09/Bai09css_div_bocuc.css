@@ -1,0 +1,29 @@
+body {
+    width: 960px;
+    margin: 0px auto;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+#header {
+    background: #333;
+    padding: 10px 25px;
+}
+#content {
+    background: #555;
+    width: 630px;
+    float: left;
+
+
+}
+#sidebar {
+    background: #444;
+    width: 300px;
+    float: right;
+    padding: 0.5em;
+}
+#footer {
+    clear: both;
+    background: #666;
+    padding: 1em;
+}

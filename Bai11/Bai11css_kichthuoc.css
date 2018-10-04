@@ -1,0 +1,10 @@
+div {
+    background: red;
+    height: 500px;
+    max-height: 400px;
+}
+p {
+    background: blue;
+    width: 500px;
+    max-width: 300px;
+}

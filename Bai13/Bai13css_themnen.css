@@ -1,0 +1,10 @@
+h1 {
+    background: aqua;
+}
+h2 {
+    background-image: url("http://vuanhiepanh.com/uploads/nvalbums/images/2015_01/tha-hon-vao-bo-anh-hoa-sen-dep-nhat-7.jpg");
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
