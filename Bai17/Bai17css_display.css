@@ -1,0 +1,28 @@
+.inline {
+    background: #e8e8e8;
+    border: 1px solid red;
+    display: inline;
+}
+.block {
+    background: blue;
+    display: block;
+}
+.list div {
+    list-style-type: square;
+    margin-left: 32px;
+    display: list-item;
+
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.col {
+    display: table-cell;
+    background: aquamarine;
+    border: 1px solid;
+}

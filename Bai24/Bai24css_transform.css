@@ -1,0 +1,21 @@
+img {
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: all 1s;
+    -moz-transform: all 1s;
+    -webkit-transform: all 1s;
+    margin: 50px;
+}
+#img1:hover {
+    transform: rotate(2turn);
+}
+#img2:hover {
+    transform: skew(80deg);
+}
+#img3:hover {
+    transform: scale(3);
+}
+#img4:hover {
+    transform: translate(100px,200px);
+}

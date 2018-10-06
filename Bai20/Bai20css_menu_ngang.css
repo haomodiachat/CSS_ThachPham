@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    color:#333;
+
+}
+#menu ul {
+    list-style-type: none;
+    background:antiquewhite;
+    text-align: center;
+}
+#menu ul li {
+    color: aqua;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a {
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover {
+    color: orangered;
+    background: aqua;
+}
+#menu ul li>.sub-menu {
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover .sub-menu {
+    display: block;
+}
